@@ -45,6 +45,12 @@ A essa altura fica claro que em algum momento precisaremos juntar as coisas ai �
 
 Primeiro, se já não estiver vá para a branch master ou main
 
+digite:
+
+@>> git merge teste
+
+
+
 
 
 
