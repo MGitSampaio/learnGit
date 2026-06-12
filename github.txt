@@ -23,6 +23,13 @@ MUITA ATENÇÃO A PARTIR DAQUI
 @>> git checkout id_commit| leva você ao commit solicitado observe que os arquivos estão como naquele commit cuidade para não de confundir.
 Para retornar ao commit atual digite:
 @>> git checkout master ou main
-@>> git branch | retorna as branchs existentes no repositório
+
+
+@>> git reverse id_commit | usado para reverter a última alteração feita no arquivo
+@>> git reset id_commit | usado para apagar todos os commits a partir daqule commit
+@>> git reflog lista todos os commits feitos
+
 @>> git branch nome_da_branch | cria uma nova branch
+@>> git branch | retorna as branchs existentes no repositório
+
 
