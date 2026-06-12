@@ -14,6 +14,7 @@ crie a pasta do seu projeto e digite:
 @>> git commit -m "o que foi feito" | sobe par ou altera seu projeto para o git
 @>> git push | sincroniza as versôes fazer sempre após o commit
 @>> git staus | retorna o status do seu projeto
+@>> git --logonline | lista os commits já realizados e seus id
 @>> git branch | retorna as branchs existentes no repositório
 @>> git branch nome_da_branch | cria uma nova branch
 
