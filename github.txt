@@ -33,6 +33,8 @@ Para retornar ao commit atual digite:
 como estamos no terminal precisamos publicar branch digite
 
 @>> git push -u origin nome-da-branch | Publica a branch
+@>> git branch | retorna as branchs existentes no repositório
+
 @>> git checkout nome_da_branch | entra na brunch desejada
 
 A partir deste ponto todas os commits serão realizados nesta branch
@@ -41,9 +43,10 @@ em diante e cada desenvolvedor trbalhando em uma delas e testanto seu trabalho i
 dos outros.
 A essa altura fica claro que em algum momento precisaremos juntar as coisas ai é que surge o merge
 
+Primeiro, se já não estiver vá para a branch master ou main
 
 
 
-@>> git branch | retorna as branchs existentes no repositório
+
 
 
