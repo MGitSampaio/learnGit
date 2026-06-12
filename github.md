@@ -10,11 +10,19 @@ crie a pasta do seu projeto e digite:
 @>> git rm nome_do_arquivo | retira o arquivo do stage
 
 @>> git add . | adicona todos os arquivos ao git necessário antes do commit(sempre)
-
 @>> git commit -m "o que foi feito" | sobe par ou altera seu projeto para o git
 @>> git push | sincroniza as versôes fazer sempre após o commit
+
+Da para fazer o seguinte:
+@ git add . && git commit -m "mensagem" && git push | parece uma boa idéia, sera? kkk
+
 @>> git staus | retorna o status do seu projeto
-@>> git --logonline | lista os commits já realizados e seus id
+
+MUITA ATENÇÃO A PARTIR DAQUI
+@>> git log --oneline | retorna a lista de commits e seus ids
+@>> git checkout id_commit| leva você ao commit solicitado observe que os arquivos estão como naquele commit cuidade para não de confundir.
+Para retornar ao commit atual digite:
+@>> git checkout master ou main
 @>> git branch | retorna as branchs existentes no repositório
 @>> git branch nome_da_branch | cria uma nova branch
 
