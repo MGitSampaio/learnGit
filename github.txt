@@ -30,6 +30,11 @@ Para retornar ao commit atual digite:
 @>> git reflog lista todos os commits feitos
 
 @>> git branch nome_da_branch | cria uma nova branch
+como estamos no terminal precisamos publicar branch digite
+
+@>> git push -u origin nome-da-branch | Publica a branch
+
+@>> git checkout nome_da_branch | entra na brunch desejada
 @>> git branch | retorna as branchs existentes no repositório
 
 
